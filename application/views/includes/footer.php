@@ -1,7 +1,4 @@
 
-		</div>
-		<!-- /.row -->
-
 	</div>
 	<!-- /.container -->
 
