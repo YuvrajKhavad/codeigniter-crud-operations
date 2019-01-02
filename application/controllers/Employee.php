@@ -10,7 +10,7 @@ class Employee extends CI_Controller
 		$this->load->view('includes/header');
 
 		// Load content view, file location application\views\content.php
-		$this->load->view('content');
+		$this->load->view('employee/employee_list');
 
 		// Load footer view, file location application\views\includes\footer.php
 		$this->load->view('includes/footer');
