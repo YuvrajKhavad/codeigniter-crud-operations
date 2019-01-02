@@ -47,4 +47,4 @@
 		</header>
 
 		<!-- Page Features -->
-		<div class="row text-center">
+		<div class="text-center">

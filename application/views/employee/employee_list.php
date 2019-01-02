@@ -1,7 +1,8 @@
 
-<h2>All Employee</h2>
-<a class="btn btn-primary" href="#" role="button">New Employee</a>
-
+<div class="title-top">
+	<h2>All Employee</h2>
+	<a class="btn btn-primary" href="#" role="button">New Employee</a>
+</div>
 <table class="table table-striped">
 	<thead>
 		<tr>

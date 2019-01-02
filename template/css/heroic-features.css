@@ -17,3 +17,11 @@ body {
 .card {
   height: 100%;
 }
+
+.title-top h2 {
+	float:left;
+}
+
+.title-top .btn-primary {
+	float:right;
+}
