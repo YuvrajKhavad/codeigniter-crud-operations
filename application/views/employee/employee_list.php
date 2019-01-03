@@ -1,7 +1,7 @@
 
 <div class="title-top">
 	<h2>All Employee</h2>
-	<a class="btn btn-primary" href="#" role="button">New Employee</a>
+	<a class="btn btn-primary" href="<?php echo base_url('index.php/Employee/new'); ?>" role="button">New Employee</a>
 </div>
 <table class="table table-striped">
 	<thead>
