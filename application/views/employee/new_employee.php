@@ -1,35 +1,36 @@
-
 <div class="title-top">
 	<h2>New Employee</h2>
 	<a class="btn btn-primary" href="<?php echo base_url('index.php/Employee/'); ?>" role="button">All Employee</a>
 </div>
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
+
+<form method="post" action="<?php echo base_url('productsCreate');?>">
+	<div class="form-group">
+		<input type="text" class="form-control" id="firstname" placeholder="First Name">
+	</div>
+
+	<div class="form-group">
+		<input type="text" class="form-control" id="lastname" placeholder="Last Name">
+	</div>
+
+	<div class="form-group">
+		<input type="email" class="form-control" id="email" placeholder="Email Aaddress">
+	</div>
+
+	<div class="form-group">
+		<label for="firstname">Gender</label>
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="radio" name="gender" value="male" checked>
+			<label class="form-check-label" for="inlineRadio1">Male</label>
+		</div>
+
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="radio" name="gender" value="female">
+			<label class="form-check-label" for="inlineRadio2">Female</label>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<input class="btn btn-primary" type="submit" value="Submit">
+	</div>
 </form>
+
